@@ -5,10 +5,9 @@
   "main": "./src/main.ts",
   "scripts": {
     "start": "node dist/index.js",
-    "build": "webpack --watch",
+    "build": "webpack ",
     "dev": "webpack serve",
     "postinstall": "tsc",
-    "deploy": "git push heroku main"
   },
   "engines": {
     "node": "14.x"
