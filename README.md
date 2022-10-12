@@ -1,6 +1,4 @@
 
-All of your changes, code, and game files should be in the src folder.
-
 ## Development
 
 There are two ways to run the code:
