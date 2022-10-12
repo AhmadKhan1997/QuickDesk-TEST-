@@ -1,11 +1,17 @@
 {
-  "name": "assignment2",
+  "name": "QuickDesk",
   "version": "1.0.0",
   "description": "",
   "main": "./src/main.ts",
   "scripts": {
+    "start": "node dist/index.js",
     "build": "webpack --watch",
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "postinstall": "tsc",
+    "deploy": "git push heroku main"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "keywords": [],
   "author": "",
