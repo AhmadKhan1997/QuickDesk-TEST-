@@ -231,6 +231,7 @@ function c1Call(){
             c1_curr_num.innerHTML=ticket_number;
             c1_indicator.style.background="red";
             button.disabled=true;
+            CurrentNumber.innerHTML=ticket_number;
          }
     }
 }
@@ -245,6 +246,7 @@ function c2Call(){
         c2_curr_num.innerHTML=ticket_number;
         c2_indicator.style.background="red";
         button.disabled=true;
+        CurrentNumber.innerHTML=ticket_number;
     }
 }
 
@@ -258,6 +260,7 @@ function c3Call(){
         c3_curr_num.innerHTML=ticket_number;
         c3_indicator.style.background="red";
         button.disabled=true;
+        CurrentNumber.innerHTML=ticket_number;
     }
 }
 
@@ -271,5 +274,8 @@ function c4Call(){
         c4_curr_num.innerHTML=ticket_number;
         c4_indicator.style.background="red";
         button.disabled=true;
+        CurrentNumber.innerHTML=ticket_number;
+
+
     }
 }
